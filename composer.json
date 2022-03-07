@@ -1,0 +1,15 @@
+{
+    "name": "rustaceanr/doctrine",
+    "autoload": {
+        "psr-4": {
+            "Rustaceanr\\Doctrine\\": "src/"
+        }
+    },
+    "require": {
+        "doctrine/orm": "^2.11",
+        "twig/twig": "^3.3",
+        "doctrine/dbal": "^3.3",
+        "doctrine/annotations": "^1.13",
+        "symfony/cache": "^5.4"
+    }
+}
